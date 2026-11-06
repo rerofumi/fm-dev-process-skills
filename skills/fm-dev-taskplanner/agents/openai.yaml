@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Taskplanner"
+  short_description: "仕様と現在の成果から、作業単位・依存・統合・完了条件を組み立てる"
+  default_prompt: "$fm-dev-taskplanner を使い、この仕様と現在の成果から、入力・成果・確認方法・依存が分かる作業計画を作成してください。"

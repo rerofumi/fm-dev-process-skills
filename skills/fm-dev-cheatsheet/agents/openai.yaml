@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Cheatsheet"
+  short_description: "ドメイン・技術・環境を調査し、実測結果と利用条件を再利用できる知識に残す"
+  default_prompt: "$fm-dev-cheatsheet を使い、この技術上の問いを調査し、確認済みの事実・利用条件・未確認をcheatsheetとともに返してください。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Requirement"
+  short_description: "利用者の目的と成功結果を、根拠のある要求・受け入れ条件へ具体化する"
+  default_prompt: "$fm-dev-requirement を使い、この依頼範囲の目的・要求・受け入れ条件と未決事項を整理してください。"

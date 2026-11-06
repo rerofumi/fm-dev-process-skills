@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Plan"
+  short_description: "Lv.2 leaderとして専門役へ委譲し、計画文書の保存と90の進捗更新を行う"
+  default_prompt: "$fm-dev-plan のLv.2 leaderとして、この要望または再計画要求を専門役の子agentへ委譲し、区分に応じた計画文書を保存し、90を更新して計画結果を返してください。"

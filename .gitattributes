@@ -1,0 +1,15 @@
+# Normalize line endings for text files in the working copy per platform,
+# while keeping the repository itself consistent regardless of contributor OS.
+* text=auto
+
+*.md       text
+*.py       text
+*.yaml     text
+*.yml      text
+*.json     text
+*.txt      text
+.gitignore text
+.gitattributes text
+
+# Ensure the Python helper stays executable-safe on checkout.
+*.py   text diff=python

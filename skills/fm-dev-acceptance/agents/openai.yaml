@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Acceptance"
+  short_description: "実際の成果と証跡を独立に確認し、合意した条件への受け入れ判定を返す"
+  default_prompt: "$fm-dev-acceptance を使い、この対象版を合意した受け入れ条件と照合し、REQごとの判定と根拠を返してください。"

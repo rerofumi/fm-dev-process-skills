@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Develop"
+  short_description: "指定された作業範囲を実装・統合し、自己確認の結果と未達事項を返す"
+  default_prompt: "$fm-dev-develop を使い、このWPを指定範囲内で実装・統合し、変更内容と確認結果を返してください。"

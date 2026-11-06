@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Reviewer"
+  short_description: "目的・要求に照らして次の作業へ進めるかを確認し、根拠と不足を返す"
+  default_prompt: "$fm-dev-reviewer を使い、この計画が指定した次の作業へ進めるか、進行可能範囲と不足を根拠付きで確認してください。"

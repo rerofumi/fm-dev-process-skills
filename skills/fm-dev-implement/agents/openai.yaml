@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Implement"
+  short_description: "Lv.2 leaderとして実装・独立受け入れを子agentへ委譲し、90を更新する"
+  default_prompt: "$fm-dev-implement のLv.2 leaderとして、90に従ってこの計画の実装・独立受け入れ・完了処理を子agentへ委譲し、進捗を更新して完了または再計画要求を返してください。"

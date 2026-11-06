@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Architect"
+  short_description: "要求を構造・振る舞い・インターフェースへ設計し、変更影響と未解決を返す"
+  default_prompt: "$fm-dev-architect を使い、この要求の設計・インターフェース・確認方法と変更影響を具体化してください。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Tester"
+  short_description: "計画時のAPI確認から実装後の試験まで、テストと観測結果を作成する"
+  default_prompt: "$fm-dev-tester を使い、この問いまたは要求に対応するテストを設計・実行し、期待と実際、未確認の範囲を返してください。"

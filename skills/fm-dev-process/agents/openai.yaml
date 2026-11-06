@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Process"
+  short_description: "Lv.1 leaderとして計画・実装を子agentへ委譲し、90に基づき完了へ導く"
+  default_prompt: "$fm-dev-process のLv.1 leaderとして、plan／implementを子agentへ委譲し、90の進捗と返却結果を確認しながら、この要望または既存計画を完了まで進めてください。"

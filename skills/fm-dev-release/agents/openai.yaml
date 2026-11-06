@@ -1,0 +1,4 @@
+interface:
+  display_name: "FM Dev Release"
+  short_description: "受け入れ済み成果を現行文書へ反映し、指定された完了処理と引き渡しを行う"
+  default_prompt: "$fm-dev-release を使い、この受け入れ済み成果の現行文書反映と、指定された引き渡し・完了処理を行ってください。"
