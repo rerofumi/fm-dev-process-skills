@@ -38,6 +38,14 @@ FM Dev Process は、専属の専門ワーカーを持つ小さなソフトウ�
 - **事実と判定を分ける:** 実際に確認した範囲と証跡を記録し、未確認を成功扱いしません。
 - **規模に合わせる:** すべての依頼で全役を起動したり、Full の文書一式を作ったりするわけではありません。
 
+### 入手
+
+```bash
+git clone https://github.com/rerofumi/fm-dev-process-skills.git
+```
+
+リポジトリページの **Code → Download ZIP** からも取得できます。入手後は、次の「使い始める」へ進んでください。
+
 ### 使い始める
 
 1. `skills/fm-dev-*` の **12ディレクトリすべて**を、利用するagent runtimeが認識するskillsディレクトリへ配置します。相対参照があるため、各ディレクトリを同じ親の下に置いてください。ランタイム固有の配置場所・登録方法は、そのランタイムの公式ドキュメントに従ってください。
@@ -63,6 +71,8 @@ FM Dev Process は、専属の専門ワーカーを持つ小さなソフトウ�
 ## English
 
 FM Dev Process Skills is a document-first software development workflow that simulates a small team of dedicated AI workers. It separates leadership from specialist work—requirements, architecture, task planning, development, testing, review, independent acceptance, and release handoff—so that decisions, evidence, and progress can be checked rather than inferred from a single agent's claim.
+
+Get the files with `git clone https://github.com/rerofumi/fm-dev-process-skills.git`, or use **Code → Download ZIP** on the repository page, then place the 12 directories from `skills/` as described below.
 
 The repository contains **12 complementary skills**: `fm-dev-process`, `fm-dev-plan`, `fm-dev-implement`, and nine specialist skills. Install all 12 as sibling directories under the skill location recognized by your agent runtime; individual skills rely on shared references in `fm-dev-process`. The top-level agent performs leader duties and delegates specialist work to subagents one level deep. A runtime that cannot launch subagents cannot satisfy this workflow's delegation contract.
 
