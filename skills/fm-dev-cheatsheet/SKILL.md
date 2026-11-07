@@ -63,7 +63,7 @@ description: Research assigned domain, technology, or environment questions and 
 成果・変更: 確認したこと（外部資料 / 実行結果 / 経験則を区別）
 利用できる条件と制約:
 未実施・未解決: 未確認・不成立・代替案
-採用判断の条件と、依存作業への影響:
+採用判断の条件（設計が依存する前提、現行実装との対応、反映先のREQ/設計/WP）と、依存作業への影響:
 Evidence class / Evidence: 成果物・出典・証跡への参照
 ```
 
