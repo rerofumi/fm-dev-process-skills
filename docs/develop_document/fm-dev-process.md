@@ -100,6 +100,8 @@ subagentの起動や「作業中」という通知だけで工程を終えない
 
 processを使わずにplanだけを実行した利用者も、後からこの入口を使えます。その場合は既存のreadyを使ってimplementから始めてください。standalone implementが保存した再計画要求からも同様に再開できます。
 
-## 任意の補助手段
+## 配布の前提
 
 成果版やfixtureの同一性を機械IDで補助する場合は、[任意の同一性確認ツール](artifact-identity.md)を参照できます。同梱の`artifact_identity.py`を使うかは実行agentが判断し、Pythonはこの補助を使う場合だけ必要です。使わない場合も環境宣言に従って対象を特定・照合してください。
+
+このSkill（`fm-dev-process`）を含む全12本（`fm-dev-plan` / `fm-dev-implement` と9本の専門役）を、同じskills親ディレクトリへ入れてください。Lv.3の本文は `../fm-dev-process/references/` の共通契約と文書規則を参照するため、単体のSkillだけを別の場所へ置くと共通資料へ到達できません。子agentへ委譲するときは、対象の役の`SKILL.md`に加えて、今回必要な `references/` の節を読むよう指定してください。
