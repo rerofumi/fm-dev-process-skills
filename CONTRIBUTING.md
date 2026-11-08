@@ -23,6 +23,7 @@ Do not turn optional utilities into prerequisites for the core skills unless tha
 ## Validation and pull requests
 
 - Run checks relevant to the files you changed. For the optional Python helper, exercise the affected command paths and report the exact commands and observed results; do not claim tests that were not run.
+- Run `python scripts/check_mirror.py` (standard library only) before opening a PR; it exits non-zero when a source document and its packaged skill drift apart, prints per-file line counts, and `--baseline FILE` reports line deltas against a saved snapshot.
 - For workflow changes, include concrete scenarios covering the affected roles, expected handoffs, saved records, and failure or blocked paths where relevant.
 - In the pull request, summarize the motivation, behavioral change, affected files/roles, validation performed, and any known limitations.
 - Preserve the distinction between implemented work, observed evidence, and independent acceptance.
